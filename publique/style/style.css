@@ -26,3 +26,12 @@ input:focus{
     background-color: black;
     color: white;
 }
+
+a[href^="./p"]:nth-child(1),a[href^="./p"]:nth-child(3){
+    border-top: 1px solid red;
+}
+
+section:nth-child(3n+3) h2{
+    background-color: black;
+    color: white;
+}
