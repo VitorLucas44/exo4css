@@ -11,7 +11,7 @@ span+p{
     background-color: greenyellow;
 }
 
-section, ul:nth-child(1), li:nth-child(1){
+li:nth-child(1){
     border-left: 1px solid;
 }
 
