@@ -6,3 +6,23 @@ section:nth-child(2),li:nth-child(2):hover,li:nth-child(3):hover{
     text-decoration: underline;
 
 }
+
+span+p{
+    background-color: greenyellow;
+}
+
+section, ul:nth-child(1), li:nth-child(1){
+    border-left: 1px solid;
+}
+
+section:nth-child(even){
+    background-color: yellow;
+}
+
+section:nth-child(7)> h2:hover{
+    font-size: 2rem;
+}
+input:focus{
+    background-color: black;
+    color: white;
+}
